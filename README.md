@@ -104,6 +104,10 @@ Set `aria-controls` attribute to your component.
 
 Override the default CSS classes applied to your component and its sub-components.
 
+#### direction: 'ltr' | 'rtl'
+
+By default slider is displayed from left to right. If you want to change the display, you can do so by passing in 'rtl'
+
 #### disabled: boolean
 
 If this property is set to true, your component is disabled. This means you'll not able to interact with it.
@@ -157,6 +161,7 @@ Set the current value for your component. If only a single number is provided, o
 * labelContainer: string
 * maxLabel: string
 * minLabel: string
+* rtlInputRange: string
 * slider: string
 * sliderContainer: string
 * track: string
